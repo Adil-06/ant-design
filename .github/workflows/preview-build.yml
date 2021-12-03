@@ -22,7 +22,7 @@ jobs:
           key: lock-${{ github.sha }}
 
       - name: create package-lock.json
-        run: npm i --package-lock-only
+        run: npm i --package-lock-only --legacy-peer-deps
 
       - name: hack for single file
         run: |
@@ -39,7 +39,7 @@ jobs:
 
       - name: install
         if: steps.node_modules_cache_id.outputs.cache-hit != 'true'
-        run: npm ci --legacy-peer-deps
+        run: npm ci
 
   build-site:
     name: build preview

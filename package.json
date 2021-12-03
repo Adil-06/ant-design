@@ -98,7 +98,7 @@
     "site:test": "jest --config .jest.site.js --cache=false --force-exit",
     "test-image": "npm run dist && docker-compose run tests",
     "version": "node ./scripts/generate-version",
-    "install-react-16": "npm i --no-save react@16 react-dom@16 react-test-renderer@16 enzyme-adapter-react-16",
+    "install-react-16": "npm i --no-save react@16 react-dom@16 react-test-renderer@16 enzyme-adapter-react-16 --legacy-peer-deps",
     "argos": "argos upload imageSnapshots"
   },
   "browserslist": [

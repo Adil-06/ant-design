@@ -280,6 +280,7 @@
     "webpack-bundle-analyzer": "^4.1.0",
     "xhr-mock": "^2.4.1",
     "xhr2": "^0.2.0",
+    "mini-css-extract-plugin": "^2.0.0",
     "css-minimizer-webpack-plugin": "^3.0.0",
     "yaml-front-matter": "^4.0.0"
   },

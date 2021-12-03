@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@master
 
       - name: install
-        run: npm install --legacy-peer-deps
+        run: npm install
 
       - name: test
         run: npm run test-image

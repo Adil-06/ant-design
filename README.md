@@ -1,4 +1,4 @@
-This project is tested with [BrowserStack](https://www.electronjs.org/)
+This project is tested with [BrowserStack](https://browserstack.com/)
 
 <p align="center">
   <a href="https://ant.design">
